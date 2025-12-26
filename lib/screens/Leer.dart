@@ -25,7 +25,7 @@ class LeerScreen extends StatelessWidget {
   }
 }
 
-// LEER LISTA DE GASTOS
+
 Future<List> leerFire() async {
   List gastos = [];
   final user = FirebaseAuth.instance.currentUser;
@@ -50,7 +50,7 @@ Future<List> leerFire() async {
   return gastos;
 }
 
-// MOSTRAR LISTA
+
 Widget lista() {
   return FutureBuilder(
     future: leerFire(),
@@ -126,7 +126,6 @@ Widget lista() {
   );
 }
 
-// ELIMINAR GASTO
 Future<void> eliminar(String id) async {
   final user = FirebaseAuth.instance.currentUser;
   if (user == null) return;
@@ -135,7 +134,7 @@ Future<void> eliminar(String id) async {
   await ref.remove();
 }
 
-// MOSTRAR ALERTDIALOG PARA EDITAR
+
 void editarWidget(context, String id, String titulo, String descripcion, String gasto) {
   TextEditingController _titulo = TextEditingController();
   TextEditingController _descripcion = TextEditingController();
@@ -224,7 +223,7 @@ void editarWidget(context, String id, String titulo, String descripcion, String 
   );
 }
 
-// ACTUALIZAR GASTO EN FIREBASE
+
 Future<void> editar(String id, String titulo, String descripcion, String gasto) async {
   final user = FirebaseAuth.instance.currentUser;
   if (user == null) return;
