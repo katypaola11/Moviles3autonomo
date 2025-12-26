@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "943274792056",
+    "firebase_url": "https://app-m3-default-rtdb.firebaseio.com",
+    "project_id": "app-m3",
+    "storage_bucket": "app-m3.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:943274792056:android:934d374e22d58c45b4c98d",
+        "android_client_info": {
+          "package_name": "com.example.app_crud2"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCq_yaVdG_KyhHrOdJn-OBpsiirpIdECEA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:943274792056:android:39af6c8e9cdde5fbb4c98d",
+        "android_client_info": {
+          "package_name": "com.example.deber1"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCq_yaVdG_KyhHrOdJn-OBpsiirpIdECEA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
